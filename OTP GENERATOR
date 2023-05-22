@@ -1,0 +1,5 @@
+import random
+import string
+OTP = list(str(random.randint(100000,999999)))
+OTP = ''.join(OTP)
+print(f'YOUR ONE TIME OTP IS : {OTP}')
